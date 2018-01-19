@@ -36,7 +36,18 @@ git rm HEAD test.txt
 * git add .
 * git commit -m "cccc"
 * git push
+### branch เป็นทำการที่ทำงานแยกกัน แต่เราสามารถมารสมกันได้
+* git branch Say //สร้าง branch
+* git checkout
+* git checkout -b Say //สร้าง branch
+* git branch -a //list branch
+
+* git branch dev //create branch
+
+* git merge Say //รวม
+* git branch -d Say //ลบ branch
 # คำสั่งหลักๆ ในการใช้ add
 * git add .
 * git commit -m "SSSSS"
 * git push
+
