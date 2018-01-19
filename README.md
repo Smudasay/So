@@ -28,6 +28,14 @@ git rm HEAD test.txt
 ### recovery เอาไฟล์ที่ลบกลับมา
 * git reset HEAD test.txt
 * git checkout test.txt
+### เป็นการเพิ่มไหล์โยไม่ทับไฟล์เก่า
+* git add .
+* git tash //hide your update 
+* git pull
+* git stash pop //recover file
+* git add .
+* git commit -m "cccc"
+* git push
 # คำสั่งหลักๆ ในการใช้ add
 * git add .
 * git commit -m "SSSSS"
