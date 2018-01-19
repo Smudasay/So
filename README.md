@@ -18,7 +18,9 @@ git clone "https://github.com/Smudasay/Soft-D.git"
 * git config --global --unset user.name
 
 * git config --global --unset user.email
-## กลับค่าเดิม
+## discard edit กลับค่าเดิม
 * git checkout nameไฟล์
-* git reset HEAD test.txt
+## discard add เพิ่มสถานะ
+* ต้อง git add test.txt ตามด้วย git reset HEAD test.txt
+## discard commit คือการลกเลิกการ commit
 * git reset --soft "HEAD"
