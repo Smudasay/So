@@ -24,3 +24,5 @@ git clone "https://github.com/Smudasay/Soft-D.git"
 * ต้อง git add test.txt ตามด้วย git reset HEAD test.txt
 ## discard commit คือการลกเลิกการ commit
 * git reset --soft "HEAD"
+## ลบไฟล์
+git rm HEAD test.txt
