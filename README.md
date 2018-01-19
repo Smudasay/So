@@ -28,8 +28,8 @@ git clone "https://github.com/Smudasay/Soft-D.git"
 git rm HEAD test.txt
 ## recovery เอาไฟล์ที่ลบกลับมา
 * git reset HEAD test.txt
-๕ git checkout test.txt
+* git checkout test.txt
 # คำสั่งหลักๆ ในการเพิ่ม add
-๕ git add .
+* git add .
 * git commit -m "SSSSS"
 * git push
