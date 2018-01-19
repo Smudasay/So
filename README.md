@@ -18,4 +18,7 @@ git clone "https://github.com/Smudasay/Soft-D.git"
 * git config --global --unset user.name
 
 * git config --global --unset user.email
-
+## กลับค่าเดิม
+git checkout nameไฟล์
+git reset HEAD test.txt
+git reset --soft "HEAD"
