@@ -28,7 +28,7 @@ git rm HEAD test.txt
 ### recovery เอาไฟล์ที่ลบกลับมา
 * git reset HEAD test.txt
 * git checkout test.txt
-### เป็นการเพิ่มไหล์โยไม่ทับไฟล์เก่า
+### เป็นการเพิ่มไฟล์โดยไม่ทับไฟล์เก่า
 * git add .
 * git tash //hide your update 
 * git pull
