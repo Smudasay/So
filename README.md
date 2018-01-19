@@ -1,4 +1,4 @@
-# คำสั่งพื้นฐาน การใช้ Git
+# Basic Git
 ## เป็นการเชื่อมต่อ local กับ Repository โดยการใช้การ remote
 * git remote add origin "Ck1"
 ## เป็นการสร้างโฟลเดอร์ .git  ขึ้นมาโดยใช้คําสั่ง
