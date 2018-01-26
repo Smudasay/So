@@ -50,4 +50,20 @@ git rm HEAD test.txt
 * git add .
 * git commit -m "SSSSS"
 * git push
+### สร้าง branch
+* git log //ดูข้อมูลเรา
+* git log --conline
+* git log --oneline --decorate --graph
+* git checkout -b hotfix
+* echo AKB-BNK > hotfix.txt
+* git add .
+* git commit -m "......"
+* git push -u origin hotfix
+* จะรวมบรัน
+* git checkout master
+* git mcrge --no-ff hotfix //หรือต้อง git add . ก่อนถึงจะทำคำสั่งัดไปได้
+* git push  -u drigin master
+* ลบบรัน
+* git branch -d hotfix 
+* git push origin --delete hotfix 
 
