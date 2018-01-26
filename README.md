@@ -61,9 +61,13 @@ git rm HEAD test.txt
 * git push -u origin hotfix
 * จะรวมบรัน
 * git checkout master
-* git mcrge --no-ff hotfix //หรือต้อง git add . ก่อนถึงจะทำคำสั่งัดไปได้
+* git mcrge --no-ff hotfix //หรือต้อง git add . ก่อนถึงจะทำคำสั่งต่อไปได้
 * git push  -u drigin master
 * ลบบรัน
 * git branch -d hotfix 
 * git push origin --delete hotfix 
+### เพิ่ม tags
+* git tag "v1.0.0"
+* git push --tag
+* git checkout v1.0.0
 
